@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{	
+	font-family: "EB Garamond", sans-serif;
+}
+body{
+    display: flex;
+}
+.danik
+{
+    display: flex;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #633415;
+  box-shadow: rgba(0, 0, 0, 0.3) -11px 18px 6px;
+}
+.nazv
+{
+    text-align: center;
+}
+.donerkz
+{
+    display: flex;
+    float: left;
+	shape-outside: url(doner.png);
+	shape-outside: polygon(64.4% 39px, 90.15% 21.44%, 88.75% 58.04%, 154px 77.70%)
+}
+p
+{
+    font-size: 23px;
+}
+.surprise
+{
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) -5px 8px 3px;
+}
+table, th, td
+{
+    background-color: #ddd;
+    width:20%;
+    border: 2px solid;
+    border-collapse: collapse;
+}
